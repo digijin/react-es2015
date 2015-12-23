@@ -1,17 +1,7 @@
-
-
 import React from 'react';
 
-const Component = React.createClass({
-  render: function(){
-    return <div>hi</div>
+export default class Hello extends React.Component {
+  render() {
+    return <h1>Hello world</h1>;
   }
-})
-
-module.exports = function () {
-    var element = document.createElement('h1');
-
-    element.innerHTML = 'Hello world';
-
-    return element;
-};
+}

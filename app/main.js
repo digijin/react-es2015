@@ -1,7 +1,9 @@
-
-import component from './component.js'
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Hello from './component';
 
-window.onload = function(){
-  document.body.appendChild(component());
+window.onload = main;
+
+function main() {
+    ReactDOM.render(<Hello />, document.getElementById('mount'));
 }
