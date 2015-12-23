@@ -1,6 +1,7 @@
-'use strict';
-// var component = require('./component.js');
+
 import component from './component.js'
+import React from 'react';
 
-
-document.body.appendChild(component());
+window.onload = function(){
+  document.body.appendChild(component());
+}
