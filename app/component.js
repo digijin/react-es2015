@@ -4,7 +4,7 @@ import React from 'react';
 
 const Component = React.createClass({
   render: function(){
-    return '<div />'
+    return <div>hi</div>
   }
 })
 
